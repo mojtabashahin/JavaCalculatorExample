@@ -2,8 +2,10 @@
 public class CalculatorRun {
 
 	public static void main(String[] args) {
-		Calculator cal = new Calculator();
-		System.out.print(cal.Add(10, 12));
+		Calculator cal1 = new Calculator();
+		Calculator cal2 = new Calculator();
+		System.out.println(cal1.Add(10, 12));
+		System.out.println(cal2.Sub(10, 12));
 
 	}
 
